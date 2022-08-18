@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.608b2421.css",
+    "main.js": "/porfolio/static/js/main.c1b04061.js",
+    "static/media/hero4.jpg": "/porfolio/static/media/hero4.8461e7eb24b12ab03a62.jpg",
+    "static/media/hero3.jpg": "/porfolio/static/media/hero3.c4c1e7ea904609273edd.jpg",
+    "static/media/hero-bg-2.jpg": "/porfolio/static/media/hero-bg-2.48006f7c9b63285b3968.jpg",
+    "static/media/my.jpg": "/porfolio/static/media/my.3c7943eda5a377bde5a9.jpg",
+    "static/media/physics.png": "/porfolio/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/mysql.png": "/porfolio/static/media/mysql.4610cbabbff468ff8ae3.png",
+    "static/media/java.png": "/porfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/git.png": "/porfolio/static/media/git.00e5bd772731dbe33649.png",
+    "static/media/js.png": "/porfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/docker.png": "/porfolio/static/media/docker.e0ba9d2386737b9f87c6.png",
+    "index.html": "/porfolio/index.html",
+    "main.608b2421.css.map": "/porfolio/static/css/main.608b2421.css.map",
+    "main.c1b04061.js.map": "/porfolio/static/js/main.c1b04061.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.608b2421.css",
+    "static/js/main.c1b04061.js"
+  ]
+}
