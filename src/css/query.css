@@ -213,3 +213,26 @@
     display: none;
   }
 }
+
+@media (max-width: 480px) {
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .flex-col-sm {
+    flex-direction: column;
+  }
+
+  .flex-btn {
+    width: 80%;
+  }
+
+  .flex-row-sm-center {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .accordion-open .contain-content-accordion {
+    height: 120px;
+  }
+}

@@ -12,12 +12,12 @@ function Hero() {
           <h1 className="heading-primary mb-80">
             I love to create beautiful and efficient websites
           </h1>
-          <div className="flex align-items-center g-24 justify-content-center-md">
+          <div className="flex align-items-center g-24 justify-content-center-md flex-col-sm">
             <Link
               to="about"
               smooth={true}
               duration={500}
-              className="btn btn-filled"
+              className="btn btn-filled flex-btn"
             >
               <span>Discover</span>
             </Link>
@@ -25,7 +25,7 @@ function Hero() {
               to="contact"
               smooth={true}
               duration={1000}
-              className="btn flex align-items-center g-8"
+              className="btn flex align-items-center g-8 flex-btn flex-row-sm-center"
             >
               <User size={16} weight={"duotone"} />
               <span>Contact Me</span>
