@@ -1,0 +1,215 @@
+@media (max-width: 1280px) {
+  html {
+    font-size: 60%;
+  }
+
+  .container {
+    padding: 0 2.4rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 55%;
+  }
+
+  .container {
+    padding: 0 2.4rem;
+  }
+
+  .about-info {
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .grid-cols-2-md {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 880px) {
+  html {
+    font-size: 55%;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .container {
+    padding: 0 2.4rem;
+  }
+
+  .about-info {
+    grid-column: span 3;
+  }
+
+  .btn-menu-open {
+    display: block;
+  }
+
+  .btn-close-open {
+    display: none;
+  }
+
+  .contain-btn-menu {
+    display: block;
+  }
+
+  .nav-open .btn-menu-open {
+    display: none;
+  }
+
+  .nav-open .btn-close-open {
+    display: block;
+  }
+
+  .nav-close {
+    display: none !important;
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: white;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    transition: all 0.25s;
+  }
+
+  .nav-open .nav-bar {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: all;
+  }
+
+  .nav-bar .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+
+  .nav-list-item {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .justify-content-center-md {
+    justify-content: center;
+  }
+
+  .grid-cols-1-md {
+    grid-template-columns: 1fr;
+  }
+
+  .text-center-md {
+    text-align: center;
+  }
+
+  .hero-md {
+    background-image: linear-gradient(
+        rgba(51, 51, 51, 0.388),
+        rgba(51, 51, 51, 0.158)
+      ),
+      url(../imgs/hero4.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .heading-primary {
+    color: #fff;
+    font-size: 4.8rem;
+  }
+
+  .section-skills .section-left {
+    display: none;
+  }
+
+  .section-right {
+    grid-column: span 2;
+  }
+
+  .section-right p,
+  .section-right h2,
+  .section-right h3 {
+    color: #fff;
+  }
+
+  .section-skills {
+    background-image: linear-gradient(
+        rgba(51, 51, 51, 0.8),
+        rgba(51, 51, 51, 0.6)
+      ),
+      url(../imgs/hero3.jpg);
+    background-position: top;
+    background-size: cover;
+    color: #fff;
+  }
+}
+
+@media (max-width: 680px) {
+  .about-info {
+    grid-column: span 1;
+  }
+
+  .grid-cols-2,
+  .grid-cols-4,
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .accordion-header {
+    padding: 0;
+  }
+
+  .accordion-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .accordion-item .heading-four {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+
+  .service-text,
+  .w-460,
+  .w-660 {
+    width: 100%;
+  }
+
+  .accordion-list {
+    gap: 3.2rem;
+  }
+
+  .accordion-content {
+    gap: 0;
+    padding: 0;
+  }
+
+  .p-vertical-128-sm {
+    padding: 12.8rem 0 6.4rem;
+  }
+
+  .icon-accordion {
+    display: none;
+  }
+}
