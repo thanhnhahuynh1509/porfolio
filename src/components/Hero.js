@@ -1,7 +1,7 @@
 import { User } from "phosphor-react";
 import heroBg2 from "../imgs/hero-bg-2.jpg";
 import heroBg3 from "../imgs/hero3.jpg";
-import heroBg4 from "../imgs/hero4.jpg";
+import heroBg4 from "../imgs/me.jpg";
 import { Link } from "react-scroll";
 
 function Hero() {
